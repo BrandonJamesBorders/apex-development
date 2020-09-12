@@ -6,7 +6,7 @@ import { Link } from "gatsby";
 import { StaticQuery, graphql } from "gatsby";
 import { HelmetDatoCms } from "gatsby-source-datocms";
 
-import "../styles/index.sass";
+import "tailwindcss/dist/base.min.css"
 
 const TemplateWrapper = ({ children }) => {
   const [showMenu, setShowMenu] = useState(false);
@@ -95,6 +95,7 @@ const TemplateWrapper = ({ children }) => {
                       e.preventDefault();
                       setShowMenu(!showMenu);
                     }}
+                    aria-label="Show Menu"
                   />
                 </div>
                 <div className="mobile-header__logo">

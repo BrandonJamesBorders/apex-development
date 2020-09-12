@@ -6,6 +6,7 @@
   "dependencies": {
     "dotenv": "^8.1.0",
     "gatsby": "^2.22.10",
+    "gatsby-cli": "^2.12.95",
     "gatsby-image": "^2.2.34",
     "gatsby-plugin-react-helmet": "^3.1.16",
     "gatsby-plugin-sass": "^2.1.24",
@@ -31,6 +32,11 @@
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\""
   },
   "devDependencies": {
-    "prettier": "^1.17.0"
+    "@emotion/core": "^10.0.35",
+    "@emotion/styled": "^10.0.27",
+    "gatsby-plugin-emotion": "^4.3.10",
+    "prettier": "^1.17.0",
+    "tailwindcss": "^1.8.8",
+    "twin.macro": "^1.8.1"
   }
 }
