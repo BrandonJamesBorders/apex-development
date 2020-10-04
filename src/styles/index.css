@@ -1,0 +1,10 @@
+@tailwind base;
+
+@tailwind components;
+
+.body-text a {
+    color: theme('colors.blue.600');
+    text-decoration: underline;
+}
+
+@tailwind utilities;
